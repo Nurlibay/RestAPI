@@ -29,7 +29,6 @@
                 android:layout_height="wrap_content"
                 android:text="id: "
                 android:textColor="@color/black"
-                android:textSize="20sp"
                 android:textStyle="bold"
                 />
 
@@ -39,8 +38,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:textColor="@color/black"
-                android:text="1297"
-                android:textSize="20sp"
+                android:text=""
                 />
 
         </LinearLayout>
@@ -57,7 +55,6 @@
                 android:layout_height="wrap_content"
                 android:text="creationTimeSeconds: "
                 android:textColor="@color/black"
-                android:textSize="20sp"
                 android:textStyle="bold"
                 />
 
@@ -67,8 +64,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:textColor="@color/black"
-                android:text="123456789"
-                android:textSize="20sp"
+                android:text=""
                 />
 
         </LinearLayout>
@@ -85,7 +81,6 @@
                 android:layout_height="wrap_content"
                 android:text="commentatorHandle: "
                 android:textColor="@color/black"
-                android:textSize="20sp"
                 android:textStyle="bold"
                 />
 
@@ -95,8 +90,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:textColor="@color/black"
-                android:text="muntasir"
-                android:textSize="20sp"
+                android:text=""
                 />
 
         </LinearLayout>
@@ -113,7 +107,6 @@
                 android:layout_height="wrap_content"
                 android:text="locale: "
                 android:textColor="@color/black"
-                android:textSize="20sp"
                 android:textStyle="bold"
                 />
 
@@ -123,8 +116,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:textColor="@color/black"
-                android:text="en"
-                android:textSize="20sp"
+                android:text=""
                 />
 
         </LinearLayout>
@@ -141,7 +133,6 @@
                 android:layout_height="wrap_content"
                 android:text="text: "
                 android:textColor="@color/black"
-                android:textSize="20sp"
                 android:textStyle="bold"
                 />
 
@@ -151,8 +142,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:textColor="@color/black"
-                android:text="Blog comments here ... "
-                android:textSize="20sp"
+                android:text=""
                 />
 
         </LinearLayout>
@@ -169,7 +159,6 @@
                 android:layout_height="wrap_content"
                 android:text="parentCommentId: "
                 android:textColor="@color/black"
-                android:textSize="20sp"
                 android:textStyle="bold"
                 />
 
@@ -179,8 +168,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:textColor="@color/black"
-                android:text="123"
-                android:textSize="20sp"
+                android:text=""
                 />
 
         </LinearLayout>
@@ -197,7 +185,6 @@
                 android:layout_height="wrap_content"
                 android:text="rating: "
                 android:textColor="@color/black"
-                android:textSize="20sp"
                 android:textStyle="bold"
                 />
 
@@ -207,8 +194,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:textColor="@color/black"
-                android:text="0"
-                android:textSize="20sp"
+                android:text=""
                 />
 
         </LinearLayout>

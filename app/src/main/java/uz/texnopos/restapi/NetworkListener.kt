@@ -1,8 +1,8 @@
 package uz.texnopos.restapi
 
-import uz.texnopos.restapi.model.Model
+import uz.texnopos.restapi.model.Result
 
 interface NetworkListener {
-    fun onSchoolClassesResponse(models: Model)
+    fun onSchoolClassesResponse(models: List<Result>?)
     fun onSchoolClassesFailure(message: String?)
 }

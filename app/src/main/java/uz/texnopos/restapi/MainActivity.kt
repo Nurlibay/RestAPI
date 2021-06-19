@@ -15,8 +15,9 @@ class MainActivity : AppCompatActivity() {
         viewBinding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(viewBinding.root)
         viewBinding.btnGetData.setOnClickListener {
-            if(viewBinding.etBlogEntryId.text!!.isNotEmpty() && viewBinding.etBlogEntryId.text.toString() == 79.toString()){
+            if(viewBinding.etBlogEntryId.text!!.isNotEmpty()){
                 val intent = Intent(this, BlogCommentsActivity::class.java)
+                intent.putExtra("id", viewBinding.etBlogEntryId.text.toString())
                 startActivity(intent)
             } else {
                 Toast.makeText(this, "Enter the blog entry id", Toast.LENGTH_SHORT).show()

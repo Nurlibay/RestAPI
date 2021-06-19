@@ -2,9 +2,9 @@ package uz.texnopos.restapi
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.Toast
 import uz.texnopos.restapi.databinding.ActivityBlogCommentsBinding
-import uz.texnopos.restapi.model.Model
 import uz.texnopos.restapi.model.Result
 import uz.texnopos.restapi.retrofit.ApiClient
 
@@ -20,15 +20,19 @@ class BlogCommentsActivity : AppCompatActivity(), NetworkListener {
         setContentView(viewBinding.root)
         viewBinding.rvResult.adapter = blogListAdapter
         networkHelper = NetworkHelper(ApiClient.getClient())
-        setData()
+
+        val id = intent.getStringExtra("id")!!
+        Log.d("tekseriw", id)
+
+        setData(id)
     }
 
-    private fun setData(){
-        networkHelper.getClasses(this)
+    private fun setData(id: String){
+        networkHelper.getClasses(this, id.toInt())
     }
 
-    override fun onSchoolClassesResponse(models: Model) {
-        blogListAdapter.models = models
+    override fun onSchoolClassesResponse(models: List<Result>?) {
+        blogListAdapter.models = models!!
     }
 
     override fun onSchoolClassesFailure(message: String?) {

@@ -19,7 +19,7 @@ class ApiClient {
             }
             if(!::retrofit.isInitialized){
                 retrofit = Retrofit.Builder()
-                    .baseUrl("https://codeforces.com/")
+                    .baseUrl("https://codeforces.com/api/")
                     .addConverterFactory(GsonConverterFactory.create(gson))
                     .build()
             }

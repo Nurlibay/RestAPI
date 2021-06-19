@@ -8,7 +8,8 @@ import uz.texnopos.restapi.model.Model
 interface ApiInterface {
 
     @GET("blogEntry.comments?")
-    fun getClasses(@Query("blogEntryId") blogEntryId: Int): Call<Model>
+    fun getClasses(@Query("blogEntryId") id: Int): Call<Model>
 
     //?blogEntryId=79
+    //@Query("blogEntryId")
 }

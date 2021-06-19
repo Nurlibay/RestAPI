@@ -9,7 +9,4 @@ interface ApiInterface {
 
     @GET("blogEntry.comments?")
     fun getClasses(@Query("blogEntryId") id: Int): Call<Model>
-
-    //?blogEntryId=79
-    //@Query("blogEntryId")
 }

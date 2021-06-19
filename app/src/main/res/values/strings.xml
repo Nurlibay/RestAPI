@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RestAPI</string>
+    <string name="enter_the_blog_entry_id">Enter the blog entry id</string>
+    <string name="get_data">Get Data</string>
+</resources>
